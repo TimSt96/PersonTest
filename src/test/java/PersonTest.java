@@ -26,7 +26,6 @@ boolean IsTeen;
                 {-1, IsTeen},
         };
     }
-
     @Test (dataProvider = "isTeen")
     public void TestTeen(int age, boolean expected) {
         IsTeen = age >= 13 && age <= 19;
